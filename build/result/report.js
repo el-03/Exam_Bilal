@@ -1,24 +1,21 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/ClearToDo.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/PokemonSearch.feature");
 formatter.feature({
-  "name": "Clearing To-Do App",
+  "name": "Get Pokemon Data From API And Search Pokemon on Wikipedia Indonesia by Using Google",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@Android"
+      "name": "@Web"
     }
   ]
 });
 formatter.scenario({
-  "name": "Clearing when there is only 1 To-Do list",
+  "name": "Search Pikachu data and search it information",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@Android"
-    },
-    {
-      "name": "@ClearToDo"
+      "name": "@Web"
     }
   ]
 });
@@ -26,39 +23,9 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "there is one to do task on to do home page with the title of \"Going to shopping\"",
+  "name": "User get the name and id data of pokemon with name \"Pikachu\"",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "demo.steps.CheckToDoStepsDefinition.thereIsOneToDoTaskOnToDoHomePageWithTheTitleOf(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "The column is checked",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "demo.steps.UncheckToDoStepsDefinition.theColumnIsChecked()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User press more options menu",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "demo.steps.RefreshToDoStepsDefinition.userPressMoreOptionsMenu()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User press clear completed text",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "demo.steps.ClearToDoStepsDefinition.userPressClearCompletedText()"
+  "location": "demo.steps.PokemonStepsDefinition.userGetTheNameAndIdDataOfPokemonWithName(java.lang.String)"
 });

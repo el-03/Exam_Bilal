@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/",
         plugin = {"html:build/result"},
         stepNotifications = true,
-        tags = {"@Android and @ClearToDo"} // or --> Running the feature that has @Android OR @Web tags
+        tags = {"@Web"} // or --> Running the feature that has @Android OR @Web tags
         // and --> Running the feature that has @Android AND @Web tags
 )
 public class CucumberRunner {

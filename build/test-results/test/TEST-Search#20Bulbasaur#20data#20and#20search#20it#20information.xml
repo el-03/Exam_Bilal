@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Search Bulbasaur data and search it information" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-04-30T12:16:53" hostname="Bilals-MacBook-Pro.local" time="13.003">
+  <properties/>
+  <testcase name="User get the name and id data of pokemon with name &quot;Bulbasaur&quot;" classname="Search Bulbasaur data and search it information" time="8.022"/>
+  <testcase name="User open Google search-page" classname="Search Bulbasaur data and search it information" time="1.49"/>
+  <testcase name="User input &quot;Bulbasaur&quot; Wikipedia Indonesia on input search bar on Google search-page" classname="Search Bulbasaur data and search it information" time="0.341"/>
+  <testcase name="User press ENTER key on input search bar" classname="Search Bulbasaur data and search it information" time="1.257"/>
+  <testcase name="User click the first article of &quot;Bulbasaur&quot; on the result-page" classname="Search Bulbasaur data and search it information" time="1.462"/>
+  <testcase name="User see pokemon article with the pokemon name same as API Data" classname="Search Bulbasaur data and search it information" time="0.219"/>
+  <testcase name="User see pokemon article with the pokemon ID same as API Data" classname="Search Bulbasaur data and search it information" time="0.065"/>
+  <testcase name="classMethod" classname="Search Bulbasaur data and search it information" time="14.4"/>
+  <system-out><![CDATA[Request method:	GET
+Request URI:	https://pokeapi.co/api/v2/pokemon/bulbasaur
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 4071
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 30, 2020 7:16:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1588249022.571][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588249022.769][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588249022.884][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588249023.037][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588249024.133][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588249024.237][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588249024.343][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588249024.463][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588249024.576][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588249024.760][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588249025.775][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588249025.877][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588249026.337][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+</testsuite>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Search Pikachu data and search it information" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-04-30T12:16:13" hostname="Bilals-MacBook-Pro.local" time="23.234">
+  <properties/>
+  <testcase name="User get the name and id data of pokemon with name &quot;Pikachu&quot;" classname="Search Pikachu data and search it information" time="17.791"/>
+  <testcase name="User open Google search-page" classname="Search Pikachu data and search it information" time="1.643"/>
+  <testcase name="User input &quot;Pikachu&quot; Wikipedia Indonesia on input search bar on Google search-page" classname="Search Pikachu data and search it information" time="0.33"/>
+  <testcase name="User press ENTER key on input search bar" classname="Search Pikachu data and search it information" time="2.148"/>
+  <testcase name="User click the first article of &quot;Pikachu&quot; on the result-page" classname="Search Pikachu data and search it information" time="0.815"/>
+  <testcase name="User see pokemon article with the pokemon name same as API Data" classname="Search Pikachu data and search it information" time="0.308"/>
+  <testcase name="User see pokemon article with the pokemon ID same as API Data" classname="Search Pikachu data and search it information" time="0.076"/>
+  <testcase name="classMethod" classname="Search Pikachu data and search it information" time="26.161"/>
+  <system-out><![CDATA[Request method:	GET
+Request URI:	https://pokeapi.co/api/v2/pokemon/pikachu
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 2217
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 30, 2020 7:16:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[1588248992.108][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588248992.301][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588248992.404][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588248992.598][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588248993.785][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588248993.887][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588248993.989][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588248994.254][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588248994.356][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588248994.553][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588248994.655][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588248994.837][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588248994.939][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588248995.108][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588248995.215][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588248995.642][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+</testsuite>
